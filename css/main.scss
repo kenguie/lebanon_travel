@@ -19,12 +19,7 @@
 
 body {
 
-	#top_body {
-	background-image: url(../images/clouds.jpg);
-	z-index: 0;
-	}
 
-	#body_container {
 		width: 950px;
 		margin: 0 auto;
 		background-color: rgba(62, 181, 136,.8);
@@ -36,6 +31,7 @@ body {
 
 			h1 {
 				margin-top: 0;
+				margin-left: 20px;
 				padding-top: 50px;
 				font-size: 4em;
 				font-family: 'alluraregular', 'serif';
@@ -49,7 +45,7 @@ body {
 				background-repeat: no-repeat;
 				background-position: center;
 				background-size: 100%;
-				/*border: 2px solid black;*/
+				margin-left: 10px;
 			}
 
 			#col2 {
@@ -61,8 +57,115 @@ body {
 		}
 
 		#about_us {
-		
+			background-image: url(../images/green.jpg);
+			border: 1px solid black;
+			padding: 15px;
 		}
 
-	}
+		#destination1 {
+			height: 500px;
+			width: 32%;
+  			display: inline-block;
+  			padding: 4px;
+  			margin-bottom: 20px;
+  			line-height: 1.42857143;
+  			background-color: #fff;
+  			border: 1px solid #ddd;
+  			border-radius: 4px;
+  			-webkit-transition: all .2s ease-in-out;
+       			-o-transition: all .2s ease-in-out;
+          			transition: all .2s ease-in-out;
+		}
+
+		#destination1 img {
+			width: 303px;
+		}
+
+		#destination1 .caption {
+  			padding: 9px;
+  			color: #333;
+		}
+
+		#destination2 {
+			height: 500px;
+			width: 32%;
+  			display: inline-block;
+  			padding: 4px;
+  			margin-bottom: 20px;
+  			line-height: 1.42857143;
+  			background-color: #fff;
+  			border: 1px solid #ddd;
+  			border-radius: 4px;
+  			-webkit-transition: all .2s ease-in-out;
+       			-o-transition: all .2s ease-in-out;
+          			transition: all .2s ease-in-out;
+		}
+
+		#destination2 img {
+			width: 302px;
+			height: 226px;
+		}
+
+		#destination2 .caption {
+  			padding: 9px;
+  			color: #333;
+		}
+
+		#destination3 {
+			height: 500px;
+			width: 32%;
+  			display: inline-block;
+  			padding: 4px;
+  			margin-bottom: 20px;
+  			line-height: 1.42857143;
+  			background-color: #fff;
+  			border: 1px solid #ddd;
+  			border-radius: 4px;
+  			-webkit-transition: all .2s ease-in-out;
+       			-o-transition: all .2s ease-in-out;
+          			transition: all .2s ease-in-out;
+		}
+
+		#destination3 img {
+			width: 302px;
+		}
+
+		#destination3 .caption {
+  			padding: 9px;
+  			color: #333;
+		}
+
+		#destination4 {
+			height: 150px;
+			width: 99%;
+  			display: block;
+  			padding: 4px;
+  			margin-bottom: 20px;
+  			line-height: 1.42857143;
+  			background-color: #fff;
+  			border: 1px solid #ddd;
+  			border-radius: 4px;
+  			-webkit-transition: all .2s ease-in-out;
+       			-o-transition: all .2s ease-in-out;
+          			transition: all .2s ease-in-out;
+		}
+
+		#destination4 img {
+			padding-top: 10px;
+			padding-left: 10px;
+			width: 200px;
+			height: 32px;
+		}
+
+		#destination4 .caption {
+  			padding: 9px;
+  			color: #333;
+		}
+
+		#destination4 .caption h3 {
+			margin-top: 0px;
+			margin-bottom: 10px;
+		}
+	
 }
+
