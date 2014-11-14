@@ -211,6 +211,8 @@ body #gallery {
     -moz-box-shadow: 0px 0px 30px gray;
     /*Mozilla shadow version*/
     opacity: 1; }
+body #contacts {
+  height: 300px; }
 body footer {
   text-align: center; }
 
